@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="contact-information.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <h1>Entre em contato:</h1>
+    <section id="formulario">
+      <form
+        action="https://formsubmit.co/554c5cf2626844cf3f789c6b265d3023"
+        method="POST"
+      >
+        <label for="name">Nome:</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          required
+          placeholder="Seu nome"
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Seu melhor email"
+          required
+        />
+        <label for="telefone">Telefone:</label>
+        <input
+          type="text"
+          name="telefone"
+          id="telefone"
+          placeholder="Seu número de whatsapp"
+          required
+        />
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          placeholder="Deixe sua mensagem"
+          name="mensagem"
+          id="mensagem"
+          required
+          rows="8"
+        ></textarea>
+
+        <button id="btn-submit" type="submit">Enviar</button>
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500//thanks.html"
+        />
+        <input type="hidden" name="_captcha" value="false" />
+      </form>
+    </section>
+  </body>
+</html>
